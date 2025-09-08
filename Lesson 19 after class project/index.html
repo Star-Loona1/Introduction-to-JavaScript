@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <div class="jumbotron jumbotron-fluid">
+    <h1>Simple Calculator</h1>
+    <h4>Performing all operations using JavaScript</h4></center>
+
+    <p id="add"></p>
+    <p id="sub"></p>
+    <p id="mul"></p>
+    <p id="div"></p>
+
+    <script>
+        var num1 = 296
+        var num2 = 74
+
+        var add = num1 + num2;
+        var sub = num1 - num2;
+        var mul = num1 * num2;
+        var div = num1 / num2;
+
+        document.getElementById("add").innerHTML = "The added value is: " + add;
+        document.getElementById("sub").innerHTML = "The subtracted value is: " + sub;
+        document.getElementById("mul").innerHTML = "The multiplied value is: " + mul;
+        document.getElementById("div").innerHTML = "The divided value is: " + div;
+    </script>
+</div>
+</body>
+</html>
